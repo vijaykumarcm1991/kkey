@@ -1,4 +1,3 @@
-````markdown
 # KodeKey
 
 ```
@@ -343,7 +342,7 @@ kkey main ❯ Add input validation to @src/forms.py and add tests
 
 ### Custom slash commands
 
-Create `​.kkey/commands/review.md` in your project (or `~/.kkey/commands/` for global):
+Create `.kkey/commands/review.md` in your project (or `~/.kkey/commands/` for global):
 
 ```markdown
 Review the code in $ARGUMENTS for bugs, security issues, and performance
@@ -445,6 +444,3 @@ Project `.kkey/` folders stay where they are — delete them per-project if desi
 ---
 
 **KodeKey v2.0.0** · built with Python · works with any OpenAI-compatible API
-````
-
----

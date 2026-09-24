@@ -1,3 +1,23 @@
+# KodeKey — Quick Install
+
+## Quick install
+
+Put `kkey.py` and the installer for your OS in one folder:
+
+**Linux / macOS**
+```bash
+bash install.sh
+```
+
+**Windows** (PowerShell)
+```powershell
+powershell -ExecutionPolicy Bypass -File .\install.ps1
+```
+
+Both installers are re-runnable (they double as updaters) and support
+`--uninstall` / `-Uninstall`. Then set your API key and run `kkey`.
+The manual steps in `README.md` are only needed if you prefer installing by hand.
+
 ## How to use
 
 **Linux / macOS** (folder containing `kkey.py` + `install.sh`):
@@ -29,23 +49,3 @@ The `-ExecutionPolicy Bypass` flag is needed only for this one run — it doesn'
 | Extras | Sets `PYTHONUTF8=1` on Windows; ripgrep install hint on both |
 
 Both are **idempotent** — re-running after replacing `kkey.py` performs an in-place update without touching your `~/.kkey` config, memory, or history.
-
-````markdown
-## Quick install
-
-Put `kkey.py` and the installer for your OS in one folder:
-
-**Linux / macOS**
-```bash
-bash install.sh
-```
-
-**Windows** (PowerShell)
-```powershell
-powershell -ExecutionPolicy Bypass -File .\install.ps1
-```
-
-Both installers are re-runnable (they double as updaters) and support
-`--uninstall` / `-Uninstall`. Then set your API key and run `kkey`.
-The manual steps below are only needed if you prefer installing by hand.
-````
