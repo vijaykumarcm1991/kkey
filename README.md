@@ -64,6 +64,8 @@ checkpoints (`/undo`), one-shot mode, `@file` mentions, and more.
 | *Optional:* `pyreadline3` | Windows only — enables ↑/↓ history and Tab completion |
 | *Optional:* `git` | Shows branch name in the prompt |
 
+> **Fast path:** put `kkey.py` and `install.sh` (Linux/macOS) or `install.ps1` (Windows) in one folder and run it — see [QUICK_INSTALL.md](QUICK_INSTALL.md). The step-by-step installation sections below are only needed if you prefer installing by hand.
+
 ---
 
 ## Installation — Linux / macOS
